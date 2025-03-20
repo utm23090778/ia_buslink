@@ -1,0 +1,24 @@
+# 🔹 Ignorar el entorno virtual
+.venv/
+venv/
+
+# 🔹 Ignorar archivos de configuración de Python
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# 🔹 Ignorar credenciales de Firebase (muy importante 🚨)
+firebase-key.json
+
+# 🔹 Ignorar archivos de pesos y configuraciones grandes de YOLO (son pesados)
+yolov4.weights
+yolov4.cfg
+
+# 🔹 Ignorar dependencias de Python si usas pipenv o poetry
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# 🔹 Ignorar archivos de entorno
+.env
